@@ -1,4 +1,3 @@
-# Codey4k app rails - react
+# Codey4k develop rails app with reactJs
 
-
-First project of codey4k of the year. Testing react in the rails environment
+![GitHub image](./develop_app_rails_react.png)
