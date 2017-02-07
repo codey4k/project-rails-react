@@ -1,5 +1,14 @@
 //Index component
 .index {
+    position : relative;
     width : 100%;
-    height : 100%;
+    height : 100vh;
+    background : #eee;
+    top : 80px;
+    
+    .hero {
+        width : 100%;
+        height : 400px;
+        background : #ccc;
+    }
 }

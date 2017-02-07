@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400');
 @import "bootstrap";
 @import "./navBar.scss";
+@import "./welcome.scss";
 
 * {
     margin : 0;
@@ -12,4 +13,10 @@ body {
     font-family : 'Lato';
     font-weight : 100;
     min-height : 100vh;
+}
+
+.footer {
+    width : 100%;
+    height : 300px;
+    background-color : #444;
 }
