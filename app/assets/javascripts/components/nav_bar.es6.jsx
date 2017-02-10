@@ -2,7 +2,7 @@
 
 class NavBar extends React.Component {
     render() {
-        const a = ['home','blog', 'about'],
+        const a = ['home','blog', 'about','social'],
               list = a.map( i => <a href='#'>{i}</a> )
         return(
             <div className="navBar">
