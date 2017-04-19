@@ -5,11 +5,9 @@ class Index extends React.Component {
         return (
             <div className="index">
                 <div className="hero">
-                    <div className="hero__container">
-                        <h1>Hello World!</h1>
-                        <p>This is my app</p>
-                    </div>
+                   
                 </div>
+                <Main />
             </div>
         )
     }

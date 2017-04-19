@@ -2,6 +2,8 @@
 @import "bootstrap";
 @import "./navBar.scss";
 @import "./welcome.scss";
+@import "./main.scss";
+@import "./modulos.scss";
 
 * {
     margin : 0;
@@ -13,6 +15,7 @@ body {
     font-family : 'Lato','Helvetica','Arial';
     font-weight : 100;
     min-height : 100vh;
+    background : #ccc;
 }
 
 .fab {
