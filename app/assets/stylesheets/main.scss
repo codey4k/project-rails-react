@@ -1,9 +1,11 @@
 @import "./modulos.scss";
 .main {
-    width : 95%;
-    margin : -60px 30px 0px;
-    height : 400px;
+    width : 90%;
+    margin : -60px auto;
+    height : 1000px;
     background : #fff;
     position : relative;
     border-radius : 8px;
+    box-shadow : 0 0 50px rgba(#333,.7);
+    z-index : 100;
 }
