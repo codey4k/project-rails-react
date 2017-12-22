@@ -5,14 +5,21 @@
     height : 80px;
     background : rgba(#fff,.8);
     display : flex;
-    justify-content : space-around;
-    align-items : center;
-    box-shadow : 0 10px 15px rgba(#333,.3);
+    // justify-content : space-around;
+    // align-items : center;
     position : fixed;
     z-index : 1000;
+    &:hover {
+        box-shadow : 0 10px 15px rgba(#333,.3);
+    }
     
-    h2 {
-        color : #333;
+    &__container {
+        margin : auto;
+        width : 80%;
+        height : 80%;
+        display : flex;
+        justify-content : space-between;
+        align-items : center;
     }
     
     .nav {
