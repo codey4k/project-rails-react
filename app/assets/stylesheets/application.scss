@@ -21,6 +21,13 @@ body {
     background : #ccc;
     flex-direction : column;
     // height : 2000px;
+    &::-webkit-scrollbar {
+        width : 8px;
+        background : #eee;
+    }
+    &::-webkit-scrollbar-thumb{
+        background : tomato;
+    }
 }
 
 
