@@ -4,21 +4,15 @@
     position : relative;
     width : 100%;
     height : 100%;
-    background : #eee;
+    background : #fff;
     // top : 80px;
     
     .hero {
         width : 100%;
         height : 80vh;
-        background : $mora;
+        background : $theme;
         display : flex;
         position : relative;
-        
-        img {
-            position : absolute;
-            width : 100%;
-            height : 100%;
-        }
         
         h2 {
             color : #fff;

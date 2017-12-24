@@ -16,58 +16,31 @@ body {
     font-family : 'Roboto','Helvetica','Arial';
     font-weight : 100;
     min-height : 100vh;
-    display : flex;
-    flex-wrap : wrap;
-    background : #ccc;
-    flex-direction : column;
+    // display : flex;
+    // flex-wrap : wrap;
+    background : #fff;
+    // flex-direction : column;
     // height : 2000px;
     &::-webkit-scrollbar {
         width : 8px;
-        background : #eee;
+        background : #fff;
     }
     &::-webkit-scrollbar-thumb{
-        background : tomato;
+        background : $theme;
     }
 }
 
 
 .footer {
     position : relative;
+    top : 50px;
     width : 100%;
-    height : 400px;
-    background : linear-gradient(#eee,#aaa);
-    display : flex;
-    align-self : flex-end;
-    flex-wrap : flex-end;
+    height : 300px;
+    background : #aaa;
     
     &__container {
-        width : 80%;
-        height : 300px;
-        // background : red;
-        margin : auto;
-        display : flex;
-        justify-content : space-between;
-        align-items : center;
-        flex-direction : column;
-        flex-wrap : wrap;
+        //code...
     }
     
-    &__social {
-        width : 80%;
-        height : 50%;
-        background : olive;
-    }
     
-    &__copy {
-        width : 80%;
-        height : 50px;
-        // background : blue;
-        display : flex;
-        flex-wrap : wrap;
-        
-        p {
-            align-self : flex-end;
-            margin : auto;
-        }
-    }
 }

@@ -1,16 +1,15 @@
 //component navBAr
+@import "./modulos.scss";
 
 .navBar {
     width : 100%;
     height : 80px;
     background : rgba(#fff,.8);
     display : flex;
-    // justify-content : space-around;
-    // align-items : center;
     position : fixed;
     z-index : 1000;
     &:hover {
-        box-shadow : 0 10px 15px rgba(#333,.3);
+        box-shadow : 0 10px 15px rgba(darken($theme,60%),.3);
     }
     
     &__container {

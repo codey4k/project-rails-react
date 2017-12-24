@@ -1,8 +1,10 @@
 class Main extends React.Component {
   render() {
     return(
-      <div className="main">
-      </div>
+      <main className="main">
+        <div className="main__container">
+        </div>
+      </main>
     )
   }
 }

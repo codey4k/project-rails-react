@@ -25,7 +25,7 @@ class NavBar extends React.Component {
         scroll >= 200 ?
         this.setState({
             alto : 60,
-            background : 'tomato'
+            background : '#f9edc2'
         }) :
         
         this.setState({

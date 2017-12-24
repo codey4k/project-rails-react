@@ -2,10 +2,10 @@
 
 class Index extends React.Component {
     render () {
+        const src = '<%= asset_path("images/image.jpg") %>'
         return (
             <div className="index">
                 <div className="hero">
-                    <img src="<%= asset_url('assets/image.jpg') %>"/>
                     <h2>Happy hacking!</h2>
                 </div>
                 <Main />
