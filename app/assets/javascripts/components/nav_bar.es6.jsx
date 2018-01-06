@@ -41,13 +41,14 @@ class NavBar extends React.Component {
         }
         
         const a = ['home','blog', 'about'],
-              list = a.map( i => <a href='#'>{i}</a> )
+              list = a.map( i => <a href='#' key={i.toString()}>{i}</a> )
               
         return(
             <div className="navBar" style={styles}>
                 <div className="navBar__container">
                     <h2>Logo</h2>
-                    <nav className="nav">
+                    <div className="navBar__icon"></div>
+                    <nav className="navBar__nav">
                         {list}
                     </nav>
                 </div>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
-@import "bootstrap";
+// @import "bootstrap";
 @import "./navBar.scss";
 @import "./welcome.scss";
 @import "./main.scss";
@@ -13,18 +13,15 @@
 }
 
 body {
-    font-family : 'Roboto','Helvetica','Arial';
-    font-weight : 100;
+    font-family : Helvetica, Arial;
     min-height : 100vh;
-    // display : flex;
-    // flex-wrap : wrap;
     background : #fff;
-    // flex-direction : column;
-    // height : 2000px;
+    
     &::-webkit-scrollbar {
         width : 8px;
         background : #fff;
     }
+    
     &::-webkit-scrollbar-thumb{
         background : $theme;
     }
@@ -41,6 +38,4 @@ body {
     &__container {
         //code...
     }
-    
-    
 }

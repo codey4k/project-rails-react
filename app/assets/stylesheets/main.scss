@@ -8,8 +8,7 @@
     z-index : 100;
     &::before,
     &::after {
-        content : "";
-        position : absolute;
+        @extend %pseudoElement;
         width : 5px;
         height : 50%;
         top : 0;
