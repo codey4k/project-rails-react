@@ -8,12 +8,14 @@
     </head>
 
     <body>
-        <%= react_component 'NavBar' %>
-        <%= yield %>
-        <footer class="footer">
-            <div class="footer__container">
+        <div class="site-wrap">
+            <%= react_component 'NavBar' %>
+            <%= yield %>
+            <footer class="footer">
+                <div class="footer__container">
                 
-            </div>
-        </footer>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
