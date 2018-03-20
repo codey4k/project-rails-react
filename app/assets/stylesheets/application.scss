@@ -17,7 +17,8 @@
 
 div,
 nav,
-img,
+img
+main,
 header,
 footer,
 section {
@@ -31,6 +32,7 @@ ul {
 }
 
 a {
+    color : transparent;
     text-decoration : none;
 }
 
