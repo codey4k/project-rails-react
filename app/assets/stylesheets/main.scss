@@ -1,8 +1,8 @@
 @import "./modulos.scss";
 .main {
     width : 80%;
-    margin : -50px auto;
-    height : 1000px;
+    margin : 0px auto;
+    height : auto;
     background : #fff;
     position : relative;
     z-index : 100;
@@ -27,7 +27,8 @@
     
     &__container {
         width : 100%;
-        height : 100%;
+        height : 1000px;
+        margin-top : -50px;
         position : relative;
         background : #fff;
     }
